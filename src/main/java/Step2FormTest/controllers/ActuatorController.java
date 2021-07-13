@@ -38,6 +38,7 @@ public class ActuatorController {
     public List findAll(){
         return actuatorRepository.findAll();
     }
+    //teste
 
     @GetMapping(path = {"/{id}"})
     public ResponseEntity findById(@PathVariable long id){
